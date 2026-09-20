@@ -1,0 +1,23 @@
+{
+  "name": "ols-robots-txt",
+  "version": "1.0.0",
+  "description": "Global Oxygen Low's Software robots.txt.",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "tsc --noEmit",
+    "deploy": "wrangler deploy",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@oxygenlow/webdefender": "*"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.0.0",
+    "@cloudflare/vitest-pool-workers": "^0.8.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4",
+    "wrangler": "^4.19.0"
+  }
+}

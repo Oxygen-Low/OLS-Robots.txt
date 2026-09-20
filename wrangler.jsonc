@@ -1,0 +1,20 @@
+// Wrangler configuration for the OLS Robots.txt Cloudflare Worker
+{
+  "name": "ols-robots-txt",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-09-20",
+  "compatibility_flags": ["nodejs_compat"],
+
+  // Import robots.txt as a raw text module — available as `robotsTemplate` in the worker
+  "rules": [
+    {
+      "type": "Text",
+      "globs": ["**/*.txt"],
+      "fallthrough": false
+    }
+  ],
+
+  // Provide DEFENDER_API_KEY as a secret:
+  //   npx wrangler secret put DEFENDER_API_KEY
+  // @oxygenlow/webdefender will automatically pick it up from env.DEFENDER_API_KEY
+}

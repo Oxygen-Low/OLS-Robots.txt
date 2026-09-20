@@ -18,5 +18,4 @@ Disallow: /
 User-agent: Claude-User # https://knownagents.com/agents/claude-user
 Disallow: /
 
-Sitemap: https://oxygenlow.com/sitemap.xml
 Content-Signal: ai-train=yes, search=yes, ai-input=yes

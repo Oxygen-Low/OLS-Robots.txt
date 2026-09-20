@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Wrangler build output
+.wrangler/
+dist/
+
+# Environment & secrets
+.env
+.env.*
+.dev.vars
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
