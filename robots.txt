@@ -32,5 +32,3 @@ Disallow: /
 # https://knownagents.com/agents/claude-user
 User-agent: Claude-User
 Disallow: /
-
-Sitemap: https://oxygenlow.com/sitemap.xml
