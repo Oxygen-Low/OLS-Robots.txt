@@ -1,21 +1,36 @@
 User-agent: *
 Allow: /
 
-User-agent: Bytespider # https://knownagents.com/agents/bytespider
-Disallow: /
-User-agent: ClaudeBot # https://knownagents.com/agents/claudebot
-Disallow: /
-User-agent: meta-externalagent # https://knownagents.com/agents/meta-externalagent
-Disallow: /
-User-agent: Applebot # https://knownagents.com/agents/applebot
-Disallow: /
-User-agent: atlassian-bot # https://knownagents.com/agents/atlassian-bot
-Disallow: /
-User-agent: Claude-SearchBot # https://knownagents.com/agents/claude-searchbot
-Disallow: /
-User-agent: meta-webindexer # https://knownagents.com/agents/meta-webindexer
-Disallow: /
-User-agent: Claude-User # https://knownagents.com/agents/claude-user
+# https://knownagents.com/agents/bytespider
+User-agent: Bytespider
 Disallow: /
 
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
+# https://knownagents.com/agents/claudebot
+User-agent: ClaudeBot
+Disallow: /
+
+# https://knownagents.com/agents/meta-externalagent
+User-agent: meta-externalagent
+Disallow: /
+
+# https://knownagents.com/agents/applebot
+User-agent: Applebot
+Disallow: /
+
+# https://knownagents.com/agents/atlassian-bot
+User-agent: atlassian-bot
+Disallow: /
+
+# https://knownagents.com/agents/claude-searchbot
+User-agent: Claude-SearchBot
+Disallow: /
+
+# https://knownagents.com/agents/meta-webindexer
+User-agent: meta-webindexer
+Disallow: /
+
+# https://knownagents.com/agents/claude-user
+User-agent: Claude-User
+Disallow: /
+
+Sitemap: https://oxygenlow.com/sitemap.xml
