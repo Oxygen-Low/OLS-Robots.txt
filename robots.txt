@@ -5,10 +5,6 @@ Allow: /
 User-agent: Bytespider
 Disallow: /
 
-# https://knownagents.com/agents/claudebot
-User-agent: ClaudeBot
-Disallow: /
-
 # https://knownagents.com/agents/meta-externalagent
 User-agent: meta-externalagent
 Disallow: /
@@ -31,5 +27,9 @@ Disallow: /
 
 # https://knownagents.com/agents/claude-user
 User-agent: Claude-User
+Disallow: /
+
+# https://knownagents.com/agents/claudebot
+User-agent: ClaudeBot
 Disallow: /
 
