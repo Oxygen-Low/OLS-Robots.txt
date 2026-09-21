@@ -17,12 +17,12 @@ Disallow: /
 User-agent: atlassian-bot
 Disallow: /
 
-# https://knownagents.com/agents/claude-searchbot
-User-agent: Claude-SearchBot
-Disallow: /
-
 # https://knownagents.com/agents/meta-webindexer
 User-agent: meta-webindexer
+Disallow: /
+
+# https://knownagents.com/agents/claude-searchbot
+User-agent: Claude-SearchBot
 Disallow: /
 
 # https://knownagents.com/agents/claude-user
